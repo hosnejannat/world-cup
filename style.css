@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+@media screen and (max-width:576px) {
+
+    .middle-container {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
+
+
+
 body {
 
     font-family: 'Roboto Condensed', sans-serif;
